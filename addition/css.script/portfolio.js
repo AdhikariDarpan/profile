@@ -103,8 +103,8 @@ function startTypingWhenVisible(element, wordArray, typingDelay, wordChangeDelay
   observer.observe(element);
   return observer;
 }
-const wordArray1 = ['Freelancer', 'Full-Stack Developer', 'Digital editor'];
-const wordArray2 = ['Freelancer', 'Full-Stack Developer', 'Digital editor', "BSc.CSIT Student"];
+const wordArray1 = ['Freelancer', 'Web Developer'];
+const wordArray2 = ['Freelancer', 'Web Developer', "BSc.CSIT Student"];
 const typingDelay = 100;
 const wordChangeDelay = 1000; 
 const homeText = document.querySelector(".home .home-content .text-3 span");
